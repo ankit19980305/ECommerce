@@ -1,54 +1,70 @@
-# MERN E-COMMERCE SERVER 2024
+# Getting Started with Create React App
 
-Hi! My name is **Abhishek Nahar Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Prerequisite
+## Available Scripts
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  TypeScript - https://youtu.be/66_bET6sI20
-3.  Node - https://youtu.be/BSO9C8Z-YV8
-4.  React In One Video - https://youtu.be/b50zSyLiCYQ
-5.  React Full Course - https://www.youtube.com/playlist?list=PLt5mNkGuWcuWSUHxSzWP74IU9U4BTVLt0
-6.  Express - https://youtu.be/teipbke8c4A\
-7.  MongoDB - https://youtu.be/AYDP1S5BbTo
-8.  Master Backend In One Video - https://youtu.be/cGAdC4A5fF4
-9.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
+In the project directory, you can run:
 
-# Install Dependencies
+### `npm start`
 
-**For Dev** - `npm i && npm run dev`
-**For Product** - `npm i && npm run preview`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Env Variables
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Make Sure to Create a .env file in root directory and add appropriate variables in order to use the app.
+### `npm test`
 
-**Essential Variables**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-VITE_FIREBASE_KEY= `from firebase`
+### `npm run build`
 
-VITE_AUTH_DOMAIN= `from firebase`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-VITE_PROJECT_ID=`from firebase`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-VITE_STORAGE_BUCKET=`from firebase`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-VITE_MESSAGING_SENDER_ID=`from firebase`
+### `npm run eject`
 
-VITE_APP_ID=`from firebase`
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-VITE_SERVER=`Your Backend Server URl`
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-VITE_STRIPE_KEY=`Stripe Publishable Key`
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-_fill each filed with your info respectively_
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Author
+## Learn More
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
+### Code Splitting
 
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
